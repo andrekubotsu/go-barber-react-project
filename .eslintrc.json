@@ -1,7 +1,7 @@
 {
     "env": {
         "browser": true,
-        "es2021": true
+        "es6": true
     },
     "extends": [
       "plugin:react/recommended",
@@ -30,6 +30,7 @@
       "prettier/prettier": "error",
       "@typescript-eslint/no-empty-function":"off",
       "camelcase": ["off"],
+      "import/no-duplicates": "off",
       "@typescript-eslint/ban-types": ["warn",
         {
             "types": {
